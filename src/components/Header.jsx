@@ -9,22 +9,25 @@ function Header() {
   };
 
   return (
-    <header className="fixed w-full h-[70px] bg-white flex items-center justify-between px-4 md:px-10 z-50 shadow-md">
-      <div className="w-full hidden md:w-1/3 md:flex justify-start">
-        {/* You can add a logo or branding here if needed */}
-      </div>
+    <header className="fixed w-full h-[70px] bg-white flex items-center justify-between px-3 md:px-10 z-50 shadow-md">
+      {/* Empty div - hidden on mobile, visible from md up */}
+      <div className="hidden md:block md:w-1/3"></div>
+
+      {/* Title - full width on mobile, 1/3 width from md up */}
       <h1
-        className="text-xl sm:text-2xl md:text-4xl font-serif font-semibold text-center w-full md:w-1/3 cursor-pointer"
+        className="text-xl sm:text-2xl md:text-4xl font-serif font-semibold cursor-pointer md:w-1/3 md:text-center text-[#4B1625] tracking-[0.1em]"
         onClick={() => scrollToSection("home-section")}
       >
-        TimeLux
+        TIMELUXE
       </h1>
-      <nav className="w-full md:w-1/3 flex justify-end">
-        <ul className="flex items-center gap-3 sm:gap-5 text-sm sm:text-lg">
+
+      {/* Navigation - maintains position on both mobile and desktop */}
+      <nav className="md:w-1/3 md:flex md:justify-end">
+        <ul className="flex items-center gap-2 sm:gap-5 text-sm sm:text-lg">
           <li>
             <button
               onClick={() => scrollToSection("about-section")}
-              className="hover:text-red-700 transition-colors cursor-pointer"
+              className="hover:text-[#4B1625] transition-colors cursor-pointer"
             >
               About Us
             </button>
@@ -32,7 +35,7 @@ function Header() {
           <li>
             <button
               onClick={() => scrollToSection("contact-section")}
-              className="hover:text-red-700 transition-colors cursor-pointer"
+              className="hover:text-[#4B1625] transition-colors cursor-pointer"
             >
               Contact Us
             </button>

@@ -44,7 +44,7 @@ function Cards() {
               <h3 className="text-white text-lg font-semibold mb-2">
                 {product.name}
               </h3>
-              <div className="bg-red-700 text-white px-2 py-1 rounded-full text-xs font-semibold inline-flex items-center self-start">
+              <div className="bg-[#4B1625] text-white px-2 py-1 rounded-full text-xs font-semibold inline-flex items-center self-start">
                 <Tag size={12} className="mr-1" />
                 Launching Soon
               </div>
