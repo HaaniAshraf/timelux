@@ -2,3 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: "Seasons";
+  src: url("/src/assets/fonts/Fontspring-DEMO-theseasons-bd.otf") format("otf"),
+    url("/src/assets/fonts/Fontspring-DEMO-theseasons-lt.otf") format("otf"),
+    url("/src/assets/fonts/Fontspring-DEMO-theseasons-reg.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.seasons-font {
+    font-family: 'Seasons', serif;
+  }
+  

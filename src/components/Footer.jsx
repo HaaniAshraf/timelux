@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
           {/* Company Info */}
           <div className="space-y-3">
-            <h3 className="md:text-xl font-bold mb-4">TIMELUX</h3>
+            <h3 className="md:text-xl font-bold mb-4 seasons-font">TIMELUX</h3>
             <p className="text-sm">
               Curating timeless pieces for the modern wardrobe.
             </p>

@@ -15,7 +15,7 @@ function Header() {
 
       {/* Title - full width on mobile, 1/3 width from md up */}
       <h1
-        className="text-xl sm:text-2xl md:text-4xl font-serif font-semibold cursor-pointer md:w-1/3 md:text-center text-[#4B1625] tracking-[0.1em]"
+        className="seasons-font text-xl sm:text-2xl md:text-4xl font-semibold cursor-pointer md:w-1/3 md:text-center text-[#4B1625] tracking-[0.1em]"
         onClick={() => scrollToSection("home-section")}
       >
         TIMELUXE

@@ -1,12 +1,15 @@
 import React from "react";
 import { Tag } from "lucide-react";
-import Product from "../assets/product.jpg";
+import Product1 from "../assets/product1.jpg";
+import Product2 from "../assets/product2.jpg";
+import Product3 from "../assets/product3.jpeg";
+import Product4 from "../assets/product4.jpg";
 
 const products = [
-  { id: 1, name: "Winter Jacket", image: Product },
-  { id: 2, name: "Cozy Sweater", image: Product },
-  { id: 3, name: "Thermal Boots", image: Product },
-  { id: 4, name: "Fleece Gloves", image: Product },
+  { id: 1, name: "Polos", image: Product1 },
+  { id: 2, name: "Shirts", image: Product2 },
+  { id: 3, name: "Pants", image: Product3 },
+  { id: 4, name: "Accessories", image: Product4 },
 ];
 
 function Cards() {

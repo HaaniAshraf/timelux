@@ -34,10 +34,10 @@ function Home() {
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-          <h2 className="text-5xl md:text-6xl lg:text-8xl font-serif mb-4 text-[#FFFFE3] font-semibold tracking-[0.1em]">
+          <h2 className="seasons-font text-5xl md:text-6xl lg:text-8xl mb-4 text-[#FFFFE3] font-semibold tracking-[0.1em]">
             TIMELESS
           </h2>
-          <h2 className="text-5xl md:text-6xl lg:text-7xl font-serif mb-8 text-[#FFFFE3] font-semibold tracking-[0.1em]">
+          <h2 className="text-5xl md:text-6xl lg:text-7xl seasons-font mb-8 text-[#FFFFE3] font-semibold tracking-[0.1em]">
             LUXURY
           </h2>
           <button
